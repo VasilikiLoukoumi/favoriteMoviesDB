@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 26 Σεπ 2017 στις 22:09:18
+-- Χρόνος δημιουργίας: 26 Σεπ 2017 στις 22:32:03
 -- Έκδοση διακομιστή: 10.1.19-MariaDB
 -- Έκδοση PHP: 5.6.28
 
@@ -30,7 +30,7 @@ CREATE TABLE `data` (
   `id` int(11) NOT NULL,
   `name` char(255) NOT NULL,
   `release_year` date NOT NULL,
-  `staring` char(255) NOT NULL,
+  `starring` char(255) NOT NULL,
   `review` char(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -38,7 +38,7 @@ CREATE TABLE `data` (
 -- Άδειασμα δεδομένων του πίνακα `data`
 --
 
-INSERT INTO `data` (`id`, `name`, `release_year`, `staring`, `review`) VALUES
+INSERT INTO `data` (`id`, `name`, `release_year`, `starring`, `review`) VALUES
 (1, 'The Godfather', '1972-09-29', 'Marlon Brando, Al Pacino, James Caan ...', 'A deep insight into Italian-American society, a great journey for young Michael, from school boy to Godfather and some  mesmerizing performances by Marlon Brando, Al Pacino, James Caan, Robert Duvall, Al Letieri, John Cazale to name a few!'),
 (2, 'Apocalypse Now!', '1979-11-01', 'Marlon Brando, Martin Sheen, Robert Duvall ...', 'Vietnam war movie with an epic performance from Marlon Brando');
 
