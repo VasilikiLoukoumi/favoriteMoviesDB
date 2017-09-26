@@ -1,0 +1,8 @@
+document.addEventListener("click", function(e){
+if(event.target==="myBtn"){	
+let phpRun = '<?php echo run();?>';
+let div = document.getElementById("movieContainer");
+div.innerHtml = phpRun;
+}
+}
+);
