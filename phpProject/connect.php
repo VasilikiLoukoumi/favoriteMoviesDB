@@ -1,6 +1,6 @@
 <?php
 $username = "root";
-$password = "";
+$password = " ";
 $hostname = "localhost"; 
 
 //connection to the database
@@ -9,7 +9,7 @@ $dbhandle = mysql_connect($hostname, $username, $password)
 //echo "Connected to MySQL<br>";
 
 $selected = mysql_select_db("moviebase",$dbhandle) 
- // or die("Could not select the moviebase database");
+  or die("Could not select the moviebase database");
 
 
 
